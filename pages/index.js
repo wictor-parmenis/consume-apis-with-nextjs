@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import pokemonApi from '../services/pokemonApi'
-import {Container} from './home'
+import {Container} from '../styles/home'
 
 
 export const getServerSideProps = async () => {
